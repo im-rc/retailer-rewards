@@ -2,7 +2,7 @@
 
 The Retailer Rewards App is a React application that displays customer rewards points based on their transaction history. The app fetches transactions from an API, calculates reward points, and displays them grouped by customers.
 
-![Customer Rewards](./public/screenshot.png)
+![Customer Rewards](./public/screenshot.jpg)
 
 ## Features
 
