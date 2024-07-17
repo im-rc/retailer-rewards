@@ -33,7 +33,10 @@ const CustomerRewards = () => {
 
     // Render loading indicator if transactions are still loading
     if (transactions.length === 0) {
-        return <div className='loader'></div>;
+        return <>
+        <div className='loader'></div>
+        <p>loading ...</p>
+        </>;
     }
 
     // Group transactions by customer ID
