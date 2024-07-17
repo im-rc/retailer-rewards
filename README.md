@@ -1,28 +1,56 @@
 # Retailer Rewards
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Retailer Rewards App is a React application that displays customer rewards points based on their transaction history. The app fetches transactions from an API, calculates reward points, and displays them grouped by customers.
 
-## Available Scripts
+![Customer Rewards](./public/screenshot.png)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Fetch transactions from an API (simulated)
+- Calculate reward points based on transaction amounts
+- Display rewards grouped by customers
+- Show monthly and total points for each customer
+- Error handling and loading states
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository:
 
-### `npm test`
+   ```bash
+   git clone https://github.com/im-rc/retailer-rewards.git
+   cd retailer-rewards
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Start the development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   npm start
+   ```
+
+2. Open your browser and go to:
+
+   ```
+   http://localhost:3000
+   ```
+
+3. You should see the Retailer Rewards App interface.
+
+## Running Tests
+
+1. Run unit tests:
+
+   ```bash
+   npm test
+   ```
+
+2. The test suite includes tests for the following components and functions:
+   - `CustomerRewards` component
+   - `calculatePoints` utility function
+   - `getMonthName` utility function
